@@ -2,12 +2,12 @@
   "name": "list-api-musuc",
   "version": "1.0.0",
   "description": "music Api",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "author": "",
+  "author": "phamduy",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^7.0.1",
@@ -16,5 +16,13 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.0",
     "parcel": "^2.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamduythuc/music.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phamduythuc/music/issues"
+  },
+  "homepage": "https://github.com/phamduythuc/music#readme"
 }
