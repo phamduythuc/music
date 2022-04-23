@@ -1,0 +1,148 @@
+.header {
+  display: grid;
+  grid-column: 1 / -1;
+  width: 100%;
+  padding: 3 5rem;
+  background-color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  // &__icon {
+    //   width: 5rem;
+    //   height: 5rem;
+    //   margin-right: 2.5rem;
+    //   fill: #4b134f;
+    // }
+    &__title {
+      transform: skewY(-6deg);
+      box-shadow: 0 1rem 2rem rgba(#000, .3);
+      transition : all .2s;
+      &:hover {
+        transform: skewY(0);
+      }
+    }
+    &__link {
+    color :#fff;
+    text-decoration: none;
+  }
+  &__text {
+    padding: .5rem;
+    -webkit-box-direction-break: clone;
+    box-decoration-break: clone;
+    background-image: linear-gradient(90deg, #c94b4b, #4b134f);;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  &__input {
+    width: 60rem;
+    padding: 1.35rem 3rem;
+    font-size: 1.7rem;
+    border: none;
+    background-color: none;
+    border-radius: 20rem;
+    box-shadow: 0 1rem 2rem rgba(#000, .2);
+    &:focus {
+      outline: none;
+    }
+  }
+  .search__submit {
+    display: flex;
+    align-items: center;
+    transform: translateX(-5rem);
+    border-radius: 10rem;
+    box-shadow: 0 1rem 2rem rgba(#000, .3);
+    transition : all .2s;
+    &:hover {
+      transform: translate(-4.5rem);
+    }
+  }
+  
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+  }
+  &__text {
+    font-size: 1.7rem;
+  }
+  &__icon {
+    fill: #fff;
+  }
+}
+.nav {
+  // align-self: stretch;
+  &__list {
+    height: 100%;
+    list-style: none;
+  }
+  &__item {
+    position: relative;
+    margin-right: 1.5rem;
+  }
+  &__btn {
+    height: 100%;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 1.7rem;
+    outline: none;
+
+  }
+  &__image {
+    width: 5rem;
+    height: 5rem;
+    background-color: coral;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover {
+      box-shadow: 0 1rem 2rem rgba(#000, .2);
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+  }
+}
+
+.pagination {
+ margin-top: auto;
+ padding: 0 3.5rem;
+ &::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+ &__btn {
+   border-radius: 50%;
+    &--next {
+      float: left;
+    }
+    &--prev {
+      float: right;
+    }
+ }
+}

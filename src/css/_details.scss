@@ -1,0 +1,67 @@
+.singer {
+    margin-top: 3rem;
+    min-height: 32rem;
+    width: 100%;
+    display: flex;
+    &__content {
+        width: 60%;
+        display: block;
+        padding: 3rem 5rem;
+        color: #57534e;
+    }
+    &__h3 {
+        font-size: 1.8rem;
+    }
+    &__h1 {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        padding: .5rem;
+        transform: skewY(-7deg);
+        background-image: linear-gradient(90deg, #c94b4b, #4b134f);
+        font-size: 4rem;
+        color: #fff;
+        box-shadow:0 1rem 2rem rgba(#000, .3);
+        margin:1rem 0 3.5rem 0 ;
+    }
+    &__fowlower {
+        font-size: 1.7rem;
+        margin-bottom: 0.6rem;
+        @include flex;
+        svg {
+            @include svg;
+        }
+    }
+    &__top {
+        font-size: 1.7rem;
+        margin-bottom: 0.6rem;
+        @include flex;
+        svg {
+            @include svg;
+        }
+    }
+    &__type {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+        @include flex;
+        svg {
+            @include svg;
+        }
+    }
+    &__btn {
+        margin-top: 1.5rem;
+    }
+
+    // box img
+    &__img {
+        width: 40%;
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: translateX(-2rem);
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.content {
+  grid-column: 2 / -1;
+  background-color: rgba(#fff, .2);
+  &__hello {
+    position: absolute;
+    top: 20%;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+  }
+  &__fig {
+
+    height: 32rem;
+    background-image: url(../img/images/music.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-image: $color-bg;
+      opacity: .5;
+      z-index: 1;
+
+    }
+  }
+  &__infor {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    display: flex;
+    z-index: 2;
+  }
+  &__image {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border: 3px solid #f4f4f5;
+    margin-right: 3rem;
+    
+  }
+  &__img {
+    display:block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__text {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f4f4f5;
+    z-index: 2;
+    overflow: hidden;
+  }
+  &__name {
+    @include flex;
+    font-size: 2.5rem;
+  }
+  &__album {
+    @include flex;
+    font-size: 1.6rem;
+  }
+  &__date {
+    @include flex;
+    font-size: 1.6rem;
+  }
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    fill: #f4f4f5;
+    margin-right: .6rem;
+  }
+
+}
+.name-album {
+  margin-top: 2rem;
+}

@@ -1,0 +1,56 @@
+.album {
+    width: 100%;
+    display: block;
+    margin-top: 3rem;
+    &__h2 {
+        font-size: 2rem;
+        margin: 2rem 0;
+        color: #57534e;
+    }
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-between;
+        
+    }
+    &__item {
+        width: 13rem;
+        margin-right: 2rem;
+    }
+    &__link,
+    &:link,
+    &:visited {
+        cursor: pointer;
+        text-decoration: none;
+        color: #2eaf60ee;
+        color: #57534e;
+        transition: all 0.3s;
+        &:hover {
+            letter-spacing: .1rem;
+          }
+    }
+    &__img {
+        width: 13rem;
+        height: 15rem;
+        background-color: #2eaf60ee;
+        margin-bottom: 1rem;
+        border-radius: 1.5rem;
+        overflow: hidden;
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        font-size: 1.6rem;
+        display: inline;
+    }
+    &__text {
+        font-size: 1.4rem;
+        color: #777;
+    }
+}
