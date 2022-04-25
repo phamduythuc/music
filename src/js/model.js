@@ -1,4 +1,4 @@
 import SpotifyWebApi from "spotify-web-api-node";
 
 export const token =
-  "BQBKDgF1Ws5Ev6RdOLrtkfH4_uTG49L2-MqtKlWGQ-fv2D5zHkpkbPr7-W4tXesrurhZcDZOumB7jDGh4xDYvnY9lD4ADI7GDFAubCsvMZiYA13OxIBsH4Bx8pafyzb3Ki4KpLsWk4y0L0TLKHL-fWESOnc2dwO8phzguAXrh7xnzODkEFoqSNcxx36-56lXDwOOm4AO5r25xHvV8qczaaEfiiO1hgAhTNZRB6c-0JdnE5I_gMoxC7uHDTPkDIvEkOVg0T7dPszZ0-13mVO9m9SEeajQJk8-VUz5TbyP3bNP6z0T";
+  "BQCzxjkPmFMJMO0aOWWf0Dags2KZLZk0KdaUAFp53WVClGww4vJtMtOYwhvyoRN19L-PXrU-gMYvRIoKsMw_WOw1i4TkFRl_3P-GW-AD4ovWYAxesHj-xC9EhrFH-anrzrNOUc-QUWni4N341hRKyWBPLr8lWSdOyae26VTQcWaur9kC7ou8_w";
